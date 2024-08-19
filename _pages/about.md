@@ -2,7 +2,9 @@
 permalink: /about/
 title: "About"
 ---
-
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+<div class="home">
+    <h1>About Me</h1>
+    <p>Hungry Brain.</p>
+    <h2>My CV</h2>
+    <embed src="/home/j1/Documents/00_Juan_Life/01_Fun_Stuff/01_J1Science_web/website/assets/files/JuanCV.2024.pdf" type="application/pdf" width="100%" height="600px">
+</div>
