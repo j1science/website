@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "J1"
+  name   : "J1 Science"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Severely curious. Plant Breeding, Quantitative Genetics, Data Science, Remote Sensing. This is also where I dump all the random things I be working on."
   links:
