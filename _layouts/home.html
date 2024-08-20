@@ -4,19 +4,67 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "About Me" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Hi" }}</h3>
 
 <!-- Hello World Message -->
 <div class="hello-world">
-  <p>I am J1.</p>
-  <p>This website is where I dump all the random things I make.</p>
-  <p>Welcome.</p>
+  <p class="hello-world-text">I am J1.</p>
+  <p class="hello-world-text">This website is where I dump all the random things I make.</p>
+  <p class="hello-world-text">Welcome!</p>
 </div>
+
 
 <!-- Image Gallery -->
 <div class="image-gallery">
-  <img src="{{ '/assets/images/image1.jpg' | relative_url }}" alt="Image 1 description">
-  <img src="{{ '/assets/images/image2.jpg' | relative_url }}" alt="Image 2 description">
-  <img src="{{ '/assets/images/image3.jpg' | relative_url }}" alt="Image 3 description">
-  <!-- Add as many images as you want here -->
+  <div class="image-item">
+    <img src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Pico Del Loro, Cali, Colombia">
+  </div>
+  <div class="image-item">
+    <img src="{{ '/assets/images/me2.jpg' | relative_url }}" alt="cool">
+  </div>
+  <div class="image-item">
+    <img src="{{ '/assets/images/m3.jpg' | relative_url }}" alt="breeding_meme">
+  </div>
+  <div class="image-item">
+    <img src="{{ '/assets/images/me4.jpg' | relative_url }}" alt="parchis">
+  </div>
+  <!-- Add more images as needed -->
 </div>
+
+<!-- Focused CSS for the Image Gallery -->
+<style>
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .image-item img:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+
+<!-- Custom CSS for the Hello World Text -->
+<style>
+  .hello-world-text {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    color: #3d4144;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    line-height: 1;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+</style>
