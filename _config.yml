@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: j1science
+title: J1 Science
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Severely curious. Plant Breeding, Quantitative Genetics, Data Science, Remote Sensing. This is also where I dump all the random things I be working on.
+  Severely curious. Plant Breeding, Quantitative Genetics, Data Science, Remote Sensing, Artifical Intelligence, Statistics.
 twitter_username: username
 github_username: j1science
 minimal_mistakes_skin: default
@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "J1 Science"
+  name   : "J1"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Severely curious. Plant Breeding, Quantitative Genetics, Data Science, Remote Sensing. This is also where I dump all the random things I be working on."
+  bio    : "Severely curious. Plant Breeding, Quantitative Genetics, Data Science, Remote Sensing, Artifical Intelligence, Statistics."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
