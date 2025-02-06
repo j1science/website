@@ -1,6 +1,8 @@
 ---
 title: "My Research"
 permalink: /my-research/
+layout: category
+author_profile: True
 ---
 
 ## My Research

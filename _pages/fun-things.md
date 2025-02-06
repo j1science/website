@@ -1,6 +1,8 @@
 ---
 title: "Fun Things"
 permalink: /fun-things/
+layout: category
+author_profile: True
 ---
 
 ## Fun Things

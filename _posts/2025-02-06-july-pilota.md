@@ -1,7 +1,8 @@
 ---
 title: "July Pilota: Pila o Pelota?"
 date: 2025-02-06
-categories: fun-things
+categories:
+  - fun-things
 tags:
   - game-dev
   - pygame
@@ -11,6 +12,16 @@ tags:
 Writting posts like this makes me feel like I’m channeling my inner autistic. 
 
 I made a video game for my sister’s birthday **"July Pilota: Pila o Pelota?"**. It’s an arcade-style game built with Pygame, basically a side-scrolling game with my own custom visuals.
+
+---
+
+## **Screenshots**
+
+![Game Screenshot 1](/assets/images/july_pilota_1.png)
+
+---
+
+![Game Screenshot 2](/assets/images/july_pilota_2.png)
 
 ---
 
@@ -45,10 +56,4 @@ I really enjoyed the customization aspect because I got to pick the aesthetics a
 
 ---
 
-## **Screenshots**
-#![Game Screenshot 1](/assets/images/july_pilota_1.png)
-#![Game Screenshot 2](/assets/images/july_pilota_2.png)
-
----
-
-This was a super fun project, and I hope my sister enjoys it! 🎮
+This was a cool thing to try, and I hope my sister enjoys it! 🎮
