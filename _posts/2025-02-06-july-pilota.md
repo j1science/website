@@ -1,8 +1,7 @@
 ---
 title: "July Pilota: Pila o Pelota?"
 date: 2025-02-06
-categories:
-  - fun-things
+categories: fun-things
 tags:
   - game-dev
   - pygame

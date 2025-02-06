@@ -11,8 +11,8 @@ tags:
 ## **Download the Game**
 Want to play *July Pilota*? Download it here! 🎮
 
-🔽 [**Download July Pilota (ZIP, 50MB)**](https://j1science.com/assets/files/july-pilota.zip)
+🔽 [**Download July Pilota (ZIP, 50MB)**](/assets/files/july-pilota.zip)
 
-🔽 [**Download July Pilota -- Small Screen Version (ZIP, 50MB)**](https://j1science.com/assets/files/july-pilota-small.zip)
+🔽 [**Download July Pilota -- Small Screen Version (ZIP, 50MB)**](/assets/files/july-pilota-small.zip)
 
 ---

@@ -16,7 +16,7 @@
 title: J1 Science
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Severely curious. Plant Breeding, Quantitative Genetics, Bioinformatics, Data Science, Remote Sensing, Artifical Intelligence, Statistics.
+  Severely curious. Plant Breeding, Quant. Gen., Data Science, Remote Sensing, A.I., and a bunch of random interests.
 twitter_username: breedingplants
 github_username: j1science
 minimal_mistakes_skin: default
@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "J1"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Severely curious. Plant Breeding, Quantitative Genetics, Data Science, Remote Sensing, Artifical Intelligence, Statistics."
+  bio    : "Severely curious. Plant Breeding, Quant. Gen., Data Science, Remote Sensing, A.I., and a bunch of random interests."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"

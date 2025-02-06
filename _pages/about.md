@@ -3,9 +3,37 @@ permalink: /about/
 title: "About"
 ---
 
-# Brain Hungry
+# Professionally,  I'm into plants:
+- Plant Breeding
+![Plant Breeding](/assets/images/m3.jpg)
+- Genomics
+- Phenomics
+- Quantitative Genetics
+- Computer Vision
+- High-Throughput Phenotyping
+- Big-Data Analytics
 
-Forgive me while I set this website up. For now...here is my CV.
+# Not-So-Professionally  
+I really enjoy learning—it helps me find my place on Earth... which is kind of a messed-up place rn. I have seasons of being obsessed with a random topic or project:  
+- Collecting music—especially deep cuts of salsa, cumbia, and chopped and screwed.
+- Plants & Agriculture & Gardening
+![Plants](/assets/images/me2.jpg)
+- Hiking and Foraging
+- Parquez
+![Parquez](/assets/images/me4.jpg)
+- Soccer Statistics and soccer in general
+- Biking and history of biking   
+- Ethnobotany & Paleoanthropology  
+- Psychoactive Drugs  
+- Latin American & Indigenous History  
+- Ceramic Throwing  
+- Jam Skating  
+- Ultimate Frisbee  
+- Gardening  
+- Weird Things & Odd Stuff    
+- Any kind of deep lore, tbh  
+
+## My love languages is quality time, especially cooking together and going to concerts
 
 ## My CV
 

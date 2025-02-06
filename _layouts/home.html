@@ -1,70 +1,87 @@
 ---
 layout: archive
+title: "Home"
+permalink: /
 ---
 
-{{ content }}
+<div class="page__content">
+  {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Hi" }}</h3>
+  <h3 class="archive__subtitle">
+    {{ site.data.ui-text[site.locale].recent_posts | default: "Hi" }}
+  </h3>
 
-<!-- Hello World Message -->
-<div class="hello-world">
-  <p class="hello-world-text">I am J1.</p>
-  <p class="hello-world-text">This website is where I dump all the random things I make.</p>
-  <p class="hello-world-text">Welcome!</p>
+  <!-- Hello World Message -->
+  <div class="hello-world">
+    <p class="hello-world-text">I am J1.</p>
+    <p class="hello-world-text">This website is where I dump all the random things I make.</p>
+    <p class="hello-world-text">Welcome!</p>
+  </div>
+
+  <!-- Image Gallery -->
+  <div class="image-gallery">
+    {% assign shuffled_images = site.data.images.images | sample: site.data.images.images.size %}
+    {% for img in shuffled_images %}
+      <div class="image-item">
+        <img src="{{ '/assets/images/' | append: img | relative_url }}" alt="{{ img | replace: '_', ' ' | replace: '-', ' ' }}">
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
-
-<!-- Image Gallery -->
-<div class="image-gallery">
-  <div class="image-item">
-    <img src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Pico Del Loro, Cali, Colombia">
-  </div>
-  <div class="image-item">
-    <img src="{{ '/assets/images/me2.jpg' | relative_url }}" alt="cool">
-  </div>
-  <div class="image-item">
-    <img src="{{ '/assets/images/m3.jpg' | relative_url }}" alt="breeding_meme">
-  </div>
-  <div class="image-item">
-    <img src="{{ '/assets/images/me4.jpg' | relative_url }}" alt="parchis">
-  </div>
-  <!-- Add more images as needed -->
-</div>
-
-<!-- Focused CSS for the Image Gallery -->
+<!-- Inline CSS (No External Files Needed) -->
 <style>
+  /* Page Content Styling (Matches Default Jekyll Layout) */
+  .page__content {
+    max-width: 2800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Hello World Styling */
+  .hello-world {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .hello-world-text {
+    font-size: 1rem;
+    color: #3d4144;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  /* Image Gallery */
   .image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 16px;
-    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Smaller min size allows more images per row */
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .image-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
   }
 
   .image-item img {
     width: 100%;
     height: auto;
+    object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
 
   .image-item img:hover {
     transform: scale(1.05);
   }
-</style>
 
-
-<!-- Custom CSS for the Hello World Text -->
-<style>
-  .hello-world-text {
-    -webkit-text-size-adjust: 100%;
-    font-size: 16px;
-    color: #3d4144;
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-    line-height: 1;
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-  }
+  /* Improved Collage Layout (Prevents Tiny Images) */
+  .image-item:nth-child(3n) { grid-column: span 2; }
+  .image-item:nth-child(5n) { grid-column: span 3; grid-row: span 2; }
+  .image-item:nth-child(7n) { grid-row: span 2; }
+  .image-item:nth-child(9n) { grid-column: span 2; grid-row: span 2; }
 </style>
