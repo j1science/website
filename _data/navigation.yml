@@ -1,9 +1,15 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: "/"
+
+  - title: "Fun Things"
+    url: "/fun-things/"
+
+  - title: "My Research"
+    url: "/my-research/"
+
+  - title: "Teaching"
+    url: "/teaching/"
+
   - title: "About"
-    url: /about/
+    url: "/about/"
