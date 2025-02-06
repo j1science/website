@@ -14,8 +14,9 @@ title: "About"
 - Big-Data Analytics
 
 # Not-So-Professionally  
-I really enjoy learning—it helps me find my place on Earth... which is kind of a messed-up place rn. I have seasons of being obsessed with a random topic or project:  
+I really enjoy reading/learning—it helps me find my place on Earth... which is kind of a messed-up place rn. I have seasons of being obsessed with a random topic or project:  
 - Collecting music—especially deep cuts of salsa, cumbia, and chopped and screwed.
+![Sade](/assets/images/sade.jpg)
 - Plants & Agriculture & Gardening
 ![Plants](/assets/images/me2.jpg)
 - Hiking and Foraging
@@ -28,8 +29,8 @@ I really enjoy learning—it helps me find my place on Earth... which is kind of
 - Latin American & Indigenous History  
 - Ceramic Throwing  
 - Jam Skating  
-- Ultimate Frisbee  
-- Gardening  
+- Ultimate Frisbee
+- Raspberry Pis, Arduinos, and other microcontrollers. 
 - Weird Things & Odd Stuff    
 - Any kind of deep lore, tbh  
 
