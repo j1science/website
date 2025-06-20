@@ -26,6 +26,10 @@ nav: true
 ## Te Qdfsaombres G
 
 <audio controls>
-  <source src="/files/hombres_g_te_quiero.mp3" type="audio/mpeg">
+  <source src="/files/just2ofus.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+#https://j1science.com/files/mujerdivina.mp3
+#https://j1science.com/files/at_last.mp3
+#https://j1science.com/files/hombres_g_te_quiero.mp3
