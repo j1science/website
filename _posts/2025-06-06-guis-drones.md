@@ -1,5 +1,5 @@
 ---
-title: "GeoTIFF Grid & Crop Tooling — Two Tkinter GUIs That Work Together for Processing Drone Imagery"
+title: "Grid & Crop Tooling for Processing Drone Imagery"
 date: 2025-02-12
 categories: my-research
 tags:
@@ -17,11 +17,15 @@ This project consists of two tightly related Tkinter desktop GUIs for working wi
 
 Tool 1, the GeoTIFF Grid Builder, is designed for structure and export: it loads and preprocesses GeoTIFFs, displays them using a multi-resolution image pyramid, draws real-world-sized and rotated grids, labels grid cells using serpentine logic, and exports the resulting geometries as ESRI Shapefiles. Tool 2, the Orthomosaic Viewer and Cropper, is optimized for navigation and extraction: it enables smooth panning and zooming of massive rasters, displays both pixel and map coordinates, and exports the current viewport as a native-resolution GeoTIFF while preserving the original CRS, geotransform, and nodata values. Both tools share the same design philosophy—native GDAL reads and writes, minimal GIS dependencies, desktop-first mouse-driven interaction, and explicit safeguards around coordinate reference systems and pixel geometry.
 
+![Animated GIF showing grid workflow](/assets/images/grid.gif)
+
+
+![Animated GIF showing cropper workflow](/assets/images/cropper.gif)
+
 ---
 
 ## Tool 1: GeoTIFF Grid Builder
 
-![Animated GIF showing grid workflow](/assets/images/grid.gif)
 
 ### What this tool is
 
