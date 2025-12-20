@@ -14,79 +14,101 @@ tags:
 ---
 
 <style>
-/* Make Flourish embeds feel substantial */
-.flourish-embed {
-  min-height: 800px;
+/* Full-width breakout for Flourish embeds */
+.flourish-full {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-left: 1rem;   /* optional breathing room */
+  padding-right: 1rem;
+}
+
+/* Keep vertical spacing clean */
+.flourish-full .flourish-embed {
   margin: 3rem 0;
 }
 </style>
+
 
 I built two Big Ten visualizations that track lifetime cumulative trajectories for conference wins and NFL draft picks. These were created for the Rutgers IT Data Visualization Championship: Big Ten’s Love Data Week.
 
 ---
 
-<div class="flourish-embed flourish-bar-chart-race"
-     data-src="visualisation/26878999">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26878999/thumbnail"
-         width="100%"
-         alt="Big Ten cumulative conference wins, 2020–2025" />
-  </noscript>
+<div class="flourish-full">
+  <div class="flourish-embed flourish-bar-chart-race"
+       data-src="visualisation/26878999">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26878999/thumbnail"
+           width="100%"
+           alt="Big Ten cumulative conference wins, 2020–2025" />
+    </noscript>
+  </div>
 </div>
 
-<div class="flourish-embed flourish-chart"
-     data-src="visualisation/26918692">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26918692/thumbnail"
-         width="100%"
-         alt="Big Ten cumulative NFL draft picks, 2020–2025" />
-  </noscript>
-</div>
-
----
-
-<div class="flourish-embed flourish-bar-chart-race"
-     data-src="visualisation/26918430">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26918430/thumbnail"
-         width="100%"
-         alt="Big Ten cumulative conference wins, 1998–2025" />
-  </noscript>
-</div>
-
-<div class="flourish-embed flourish-chart"
-     data-src="visualisation/26918687">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26918687/thumbnail"
-         width="100%"
-         alt="Big Ten cumulative NFL draft picks, 1998–2025" />
-  </noscript>
+<div class="flourish-full">
+  <div class="flourish-embed flourish-chart"
+       data-src="visualisation/26918692">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26918692/thumbnail"
+           width="100%"
+           alt="Big Ten cumulative NFL draft picks, 2020–2025" />
+    </noscript>
+  </div>
 </div>
 
 ---
 
-<div class="flourish-embed flourish-bar-chart-race"
-     data-src="visualisation/26918306">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26918306/thumbnail"
-         width="100%"
-         alt="Big Ten cumulative conference wins, 2010–2025" />
-  </noscript>
+<div class="flourish-full">
+  <div class="flourish-embed flourish-bar-chart-race"
+       data-src="visualisation/26918430">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26918430/thumbnail"
+           width="100%"
+           alt="Big Ten cumulative conference wins, 1998–2025" />
+    </noscript>
+  </div>
 </div>
 
-<div class="flourish-embed flourish-chart"
-     data-src="visualisation/26918546">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26918546/thumbnail"
-         width="100%"
-         alt="Big Ten cumulative NFL draft picks, 2010–2025" />
-  </noscript>
+<div class="flourish-full">
+  <div class="flourish-embed flourish-chart"
+       data-src="visualisation/26918687">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26918687/thumbnail"
+           width="100%"
+           alt="Big Ten cumulative NFL draft picks, 1998–2025" />
+    </noscript>
+  </div>
+</div>
+
+---
+
+<div class="flourish-full">
+  <div class="flourish-embed flourish-bar-chart-race"
+       data-src="visualisation/26918306">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26918306/thumbnail"
+           width="100%"
+           alt="Big Ten cumulative conference wins, 2010–2025" />
+    </noscript>
+  </div>
+</div>
+
+<div class="flourish-full">
+  <div class="flourish-embed flourish-chart"
+       data-src="visualisation/26918546">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26918546/thumbnail"
+           width="100%"
+           alt="Big Ten cumulative NFL draft picks, 2010–2025" />
+    </noscript>
+  </div>
 </div>
 
 ---
