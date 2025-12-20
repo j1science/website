@@ -147,6 +147,7 @@ The three time windows simply expose the same cumulative processes at different 
 
 ## Notes
 
-Draft picks use current Big Ten membership, counting each school’s drafted players back to 1998. Conference wins are built by carrying season-level cumulative wins forward so totals persist across years. All outputs are shaped into wide tables optimized for Flourish ingestion with consistent team naming and logos. The focus here is the visualization; the heavy lifting happens upstream in the data engineering in R using the API wrapper: cfbfastr.
+Draft picks use current Big Ten membership, counting each school’s drafted players back to 1998. Conference wins are built by carrying season-level cumulative wins forward so totals persist across years. All outputs are shaped into wide tables optimized for Flourish ingestion with consistent team naming and logos. Credit: Visualizations created with Flourish using data from CollegeFootballData.com (via the cfbfastR R package) for the Rutgers IT Data Visualization Championship.
+
 
 ---
