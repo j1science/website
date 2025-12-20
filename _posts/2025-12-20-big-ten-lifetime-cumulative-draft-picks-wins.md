@@ -1,5 +1,5 @@
 ---
-title: "Big Ten NFL Draft Picks: Lifetime Cumulative Timelines"
+title: "Big Ten Draft Picks & Conference Wins: Cumulative Trends"
 date: 2025-12-20
 categories: fun-things
 tags:
