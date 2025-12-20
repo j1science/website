@@ -35,8 +35,6 @@ If you called it, something happened.
 
 ![Business Card Front](/assets/images/bidnesscard.png)
 
-The idea was simple:
-Curiosity → phone call → experience → punchline → real question.
 
 ---
 
@@ -44,18 +42,13 @@ Curiosity → phone call → experience → punchline → real question.
 
 My first instinct was to spin up my own server to handle calls directly.
 
-That failed for two reasons:
-
-1. Phone call handling is annoying.
-2. I wanted fast iteration and branching logic, not a weekend fighting SIP.
-
-So I pivoted.
+That failed for two reasons: Phone call handling is annoying. I wanted fast iteration and branching logic, not a weekend fighting SIP. So I pivoted.
 
 ---
 
 ## **The Actual Implementation**
 
-I used **Twilio** and its flow-based call system.
+I used Twilio and its flow-based call system and I did not have to build a custom back-end.
 
 This let me:
 
@@ -64,8 +57,6 @@ This let me:
 * Branch logic based on keypad input
 * Play hosted MP3s
 * Inject recorded voice lines at key moments
-
-No custom backend. No pain.
 
 ---
 
@@ -91,7 +82,7 @@ High-level flow:
 
 ### **Option 1**
 
-**Malumaa**
+**Maluma**
 Colombian pop star.
 Six-pack included.
 Possibly too sexy.
@@ -130,7 +121,7 @@ This one worked.
 
 ---
 
-## **EEEEEE**
+## **She picked me :3**
 
 After selecting Option 3, the system switches tone.
 
@@ -175,8 +166,7 @@ A song plays.
 
 * Voice UX design
 * State-based logic
-* Timing, pacing, and emotional beats
-* Comedy writing under constraints
+
 
 Emotionally, it was a gamble.
 
