@@ -131,17 +131,7 @@ That opens the door to questions such as:
 
 ## What are you looking at
 
-Both visualizations are cumulative by construction:
-
-- Conference wins accumulate week-by-week across seasons.
-- NFL draft picks accumulate year-by-year across draft classes.
-
-Values only move upward when an event occurs; there are no resets and no negative contributions.
-
-The three time windows simply expose the same cumulative processes at different temporal scales:
-- 1998–2025: long-run program history  
-- 2010–2025: modern era  
-- 2020–2025: recent momentum  
+Both visualizations are cumulative by construction: conference wins accumulate week by week across seasons, while NFL draft picks accumulate year by year across draft classes. In both cases, values only move upward when an event occurs—there are no resets and no negative contributions. The three time windows simply present the same underlying cumulative processes at different temporal scales, with 1998–2025 capturing long-run program history, 2010–2025 reflecting the modern era, and 2020–2025 highlighting recent momentum.
 
 ---
 
