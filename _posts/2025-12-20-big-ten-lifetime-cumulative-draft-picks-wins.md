@@ -115,8 +115,7 @@ I built two Big Ten visualizations that track lifetime cumulative trajectories f
 
 ## Interesting questions
 
-Together, these plots pair on-field outcomes with NFL talent production over time.  
-That opens the door to questions such as:
+Together, these plots pair on-field outcomes with NFL talent production over time. That opens the door to questions such as:
 
 1. Who consistently wins without producing many draft picks, and who produces draft picks without dominating conference play?
 
